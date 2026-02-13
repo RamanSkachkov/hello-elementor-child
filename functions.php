@@ -35,3 +35,6 @@ add_action( 'wp_enqueue_scripts', 'jeec_enqueue_styles' );
 
 // Part 3 – User setup.
 require_once JEEC_PATH . '/inc/user-setup.php';
+
+// Part 4 – Custom Post Types & Taxonomies.
+require_once JEEC_PATH . '/inc/post-types.php';
