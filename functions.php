@@ -38,3 +38,9 @@ require_once JEEC_PATH . '/inc/user-setup.php';
 
 // Part 4 – Custom Post Types & Taxonomies.
 require_once JEEC_PATH . '/inc/post-types.php';
+
+// Part 5 – Custom REST API endpoints.
+require_once JEEC_PATH . '/inc/rest-api.php';
+
+// Part 5 – Admin settings page (React app).
+require_once JEEC_PATH . '/inc/admin-page.php';

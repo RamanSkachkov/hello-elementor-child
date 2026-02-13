@@ -1,0 +1,31 @@
+{
+	"name": "hello-elementor-child",
+	"version": "1.0.0",
+	"description": "Hello Elementor Child Theme – Products Manager with React & Gutenberg Components",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"test": "wp-scripts test-unit-js --config jest.config.ts",
+		"test:watch": "wp-scripts test-unit-js --config jest.config.ts --watch",
+		"test:coverage": "wp-scripts test-unit-js --config jest.config.ts --coverage",
+		"check-types": "tsc --noEmit",
+		"lint:js": "wp-scripts lint-js",
+		"lint:css": "wp-scripts lint-style"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^6.9.1",
+		"@testing-library/react": "^16.3.2",
+		"@testing-library/user-event": "^14.6.1",
+		"@types/jest": "^30.0.0",
+		"@types/react": "^18.0.0",
+		"@types/react-dom": "^18.0.0",
+		"@wordpress/api-fetch": "^7.0.0",
+		"@wordpress/components": "^28.0.0",
+		"@wordpress/element": "^6.0.0",
+		"@wordpress/i18n": "^5.0.0",
+		"@wordpress/scripts": "^30.0.0",
+		"ts-jest": "^29.4.6",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.0.0"
+	}
+}
